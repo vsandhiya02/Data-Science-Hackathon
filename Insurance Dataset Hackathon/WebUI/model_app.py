@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import joblib
 
-st.requirements("Hackathon/WebUI/requirements.txt")
 
 st.title("Insurance Prediction")
 
