@@ -5,6 +5,9 @@ import joblib
 
 st.title("Insurance Prediction")
 
+# Install dependencies from requirements.txt
+st.requirements("Hackathon/WebUI/requirements.txt")
+
 #read the dataset to fill thevalues in input options of each element
 df = pd.read_csv('train.csv')
 
