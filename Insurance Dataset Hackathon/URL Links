@@ -1,3 +1,8 @@
-Deployed API using AWS: https://container-service-5.g07jthyz4skdt.ap-south-1.cs.amazonlightsail.com/docs#/default/predict_predict_post
-Deployed WebApp using Streamlit: https://data-science-hackathon-dazkmd4qfzciymjbm7nmke.streamlit.app/
-Deployed WebApp using AWS: https://container-service-4.g07jthyz4skdt.ap-south-1.cs.amazonlightsail.com/
+# Deployed API using AWS: 
+https://container-service-5.g07jthyz4skdt.ap-south-1.cs.amazonlightsail.com/docs#/default/predict_predict_post
+
+# Deployed WebApp using Streamlit:
+https://data-science-hackathon-dazkmd4qfzciymjbm7nmke.streamlit.app/
+
+# Deployed WebApp using AWS: 
+https://container-service-4.g07jthyz4skdt.ap-south-1.cs.amazonlightsail.com/
