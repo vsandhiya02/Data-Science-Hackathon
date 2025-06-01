@@ -1,0 +1,82 @@
+steps:
+------
+
+-------------
+Training model
+---------------
+
+load the mnist data set from keras
+from keras.datasets import mnist
+mnist.load_data()
+
+grayscaling of the image
+normalizing the pixel values
+
+label to one-hot encoding - multiclass 10(0-9)
+
+build the model
+sequential nueral network with layers
+CNN filter activation functions
+maxpooling and dropout layers
+dense layer and output layer with softmax
+
+compile the model with optimizer 
+fit the model, plot and monitor performance
+evaluate with loss/metrics
+save the best model
+
+(improve acccuracy by tuning the epochs, batchsize, layers, data augmentation) 
+
+----------------------------------
+develop the webapp using streamlit
+---------------------------------
+
+use streamlit_drawable_canvas library for canvas widget
+show the canvas
+capture the image in the canvas
+
+convert to grayscale
+normalize
+
+split the multiple digits into separate images
+use opencv library
+contours - capture the different digits / trim/split them into each individual digit
+grayscaling normalize 
+do the prediction
+display the result
+
+streamlit local run
+take screenshot
+
+-----------
+Deployment(GCP) 
+-----------
+strore the files github 
+use gcp cloudrun
+deploy
+take screenshot
+**** DELETE ALL THE INSTANCES ***** (TO SAVE MONEY/AVOID HEART BREAKS)
+
+prepare a powerpoint with all necessary incurred details
+
+demo - recording - 5 mins(max)
+
+store the artifacts in the git repo and share the link in the google form and submit
+
+----------------------------------------------------------------------------------
+
+----------------------
+Part-2 of the hack  (try using fashion_mnist)
+----------------------
+
+from keras.datasets import fashion_mnist
+fashion_mnist.load_data()
+
+mulitclass 
+tshirt, shirt, sshoes, etc
+
+
+
+
+
+
